@@ -1,0 +1,16 @@
+#
+#Created by: Wendi Yu
+#Created on: Sep-20-2018
+#
+#Calculate the area and perimeter of the rectangle
+
+intro_text = input("Calculate the area and perimeter of the rectangle.")
+
+length = int(input("Enter a length ( Please put a positive whole number) Length = "))
+width = int(input("Enter a width ( Please put a positive whole number) Width = "))
+
+area = length * width
+perimeter = 2 * ( length + width )
+print("Area =  " + str((area)) + "cm^2", "Perimeter = " + str(perimeter) + "cm" )
+
+input ()
